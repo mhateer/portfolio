@@ -2,9 +2,9 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import projectRiyadhRealEstate from "@/public/projectRiyadhRealEstate.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import projectPhotoOne from "@/public/projectPhotoOne.webp";
+import projectPhotoTwo from "@/public/projectPhotoTwo.webp";
+import projectPhotoThree from "@/public/projectPhotoThree.webp";
 
 export const links = [
   {
@@ -35,28 +35,27 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
+    title: "Graduation",
     location: "UMT Lahore",
-    description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+    description: "I graduated with a Bachelor's degree in Computer Science.",
     icon: React.createElement(LuGraduationCap),
-    date: "2018",
+    date: "March 2023",
   },
   {
-    title: "IBM Certification",
-    location: "UMT Lahore",
+    title: "Training & Certification",
+    location: "Coursera",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "I have completed multiple certifications that have deepened my knowledge in React.",
     icon: React.createElement(LuGraduationCap),
-    date: "2018",
+    date: "2023 - 2024",
   },
   {
     title: "Front-End Developer",
     location: "Remote",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "I started working as a React Frontend Developer at a remote software company.",
     icon: React.createElement(CgWorkAlt),
-    date: "2018 - 2021",
+    date: "May 2023 - 2024",
   },
   {
     title: "Full Stack Developer",
@@ -64,53 +63,57 @@ export const experiencesData = [
     description:
       "I'm now a full-stack developer in a remote company based in USA. My stack includes React, React Native, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "2025 - present",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "Riyadh Real-Estate",
+    title: "E-Commerce Application in React Native",
     description:
-      "I worked as a full-stack developer on this startup project for 3 months. Users can rent or buy/sell properties on this platform.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: projectRiyadhRealEstate,
+      "Developing a comprehensive E-Commerce application with React Native. ",
+    tags: ["React Native", "Node.js", "MongoDB", "Redux", "Stripe"],
+    imageUrl: projectPhotoOne,
   },
   {
-    title: "rmtDev",
+    title: "Full-Stack AI SaaS Platform",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+      "Building an AI-powered SaaS platform using Next.js 14, TypeScript, and Stripe. ",
+    tags: ["Next.js 14", "TypeScript", "Stripe", "Cloudinary AI", "Clerk"],
+    imageUrl: projectPhotoTwo,
   },
   {
-    title: "Word Analytics",
+    title: "Daily Life Turkish – React Native App",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "A language-learning mobile app designed for English speakers to learn Turkish. ",
+    tags: ["React Native", "Expo Go", "Firebase", "Text-to-Speech", "AsyncStorage"],
+    imageUrl: projectPhotoThree,
   },
 ] as const;
 
+
 export const skillsData = [
+  "React Native",
   "React",
-  "Next.js",
   "Node.js",
-  "HTML",
-  "CSS",
-  "JavaScript",
-  "TypeScript",
-  "Tailwind",
   "MongoDB",
-  "Redux",
   "Express",
-  "Framer Motion",
-  "Wordpress",
-  "Elementor",
-  "Amazon VA",
-  "Web Scraping",
-  "Task Automation",
-  "Supervised Machine Learning",
-  "Unsupervised Machine Learning",
-  "Natural Language Processing",
+  "Redux",
+  "Firebase",
+  "Tailwind",
+  "Stripe",
+  "Parcel Tracking System",
+
+  "Next.js",
+  "TypeScript",
+  "Cloudinary AI",
+  "Clerk",
+  "Stripe",
+  "AI SaaS Development",
+
+  "React Native",
+  "Expo Go",
+  "Text-to-Speech",
+  "AsyncStorage",
+  "Mobile App Development",
 ] as const;
